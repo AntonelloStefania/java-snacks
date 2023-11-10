@@ -10,7 +10,7 @@ public class Snack_1 {
 		String strValue = in.nextLine();
 		int intValue = Integer.valueOf(strValue);
 		
-		
+		in.close();
 		if(intValue % 2 == 0 ) {
 			System.out.println("il numero inserito e' pari ed e': " + intValue);
 		}else {
